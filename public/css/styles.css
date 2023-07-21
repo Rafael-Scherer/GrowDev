@@ -1,0 +1,128 @@
+:root{
+    --azul: #4c79d3;    
+    --branco: #fff;
+    --cinza: #bebcbc;
+    --roxo:#4e0070;
+    --azul2: #6c8ed1;
+
+    /* 
+    var(--azul);
+    var(--branco);
+    var(--cinza);
+    var(--roxo);
+    var(--azul2);
+    */
+}
+
+
+#login {
+    background: linear-gradient(120deg, var(--azul) 44.9%, var(--branco) 45%) no-repeat fixed;
+}
+
+#app {
+    background: linear-gradient(120deg, var(--branco) 44.9%, var(--azul) 45%) no-repeat fixed;
+}
+
+header {
+    border-bottom: 1px solid #bebcbc;
+    padding: 5px;
+    background-color: var(--branco);
+}
+
+.bloco-login{
+    margin-top: 30%;
+}
+
+
+.color-primary {
+    color: var(--roxo);
+}
+
+.color-secondary {
+    color: var(--azul);
+}
+
+.icon-detail {
+    font-size: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.text-login {
+    color: var(--branco);
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30%;
+}
+
+.coins {
+    position: absolute;
+    bottom: 100px;
+}
+
+.button-login {
+    border-radius: 10px;
+    background-color: var(--roxo);
+    color: var(--branco);
+    width: 50%;
+    margin: 0 25%;
+}
+
+.button-login:hover, .button-default:hover {
+    background-color: var(--azul);
+    color: var(--branco);
+}
+
+.button-default {
+    border-radius: 10px;
+    background-color: var(--roxo);
+    color: var(--branco);
+}
+
+.button-cancel {
+    border-radius: 10px;
+    background-color: var(--azul2);
+}
+
+.button-float {
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+    font-size: 35px;
+    background-color: var(--roxo);
+    border: 2px solid var(--roxo);
+    color: var(--branco);
+    padding: 0;
+}
+
+.button-float:hover {
+    border: 2px solid var(--azul);
+    background-color: var(--branco);
+    color: var(--azul);
+}
+
+.link-default {
+    color: var(--roxo);
+    cursor: pointer;
+}
+
+.link-default:hover {
+    color: var(--azul);
+}
+
+.info {
+    background-color: var(--branco);
+    border-radius: 20px 20px 20px 20px;
+    padding: 20px 0px 0px 0px;
+}
+
+.logout {
+    min-width: 4rem;
+}
+
+.menu {
+    margin-right: 5px;
+}
